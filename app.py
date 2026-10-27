@@ -175,11 +175,11 @@ st.markdown(
     """
 | Annahme | Was passiert, wenn sie verletzt ist | Wer setzt an |
 |---|---|---|
-| **Die Aufzählung endet bei wenigen Wählern** | „Keines gefunden“ heißt nur: bis zu dieser Wählerzahl keines. Ein größeres Profil kann eines enthalten; das Lehrbuchbeispiel der Sofortstichwahl zur Monotonie braucht ohne Gleichstand mehr Wähler, als hier durchsucht werden. | diese Demo (Grenze im Verdikt) |
+| **Die Aufzählung endet bei wenigen Wählern** | „Keines gefunden“ heißt nur: bis zu dieser Wählerzahl keines. Ein größeres Profil kann eines enthalten; gleichstandsfreie Lehrbuchbeispiele der Sofortstichwahl ändern mehrere Wähler zugleich und brauchen mehr Wähler, als hier durchsucht werden (das kleinste mit drei Kandidaten 17 nach einer unabhängigen Aufzählung); mit einem einzelnen Wähler gibt es ohne Gleichstand keines. | diese Demo (Grenze im Verdikt) |
 | **Das Los entscheidet jeden Gleichstand gleich** | Viele Gegenbeispiele leben vom Gleichstand und verschwinden, wenn man nur gleichstandsfreie zulässt. „Ohne Gleichstand“ ist dabei streng: jeder Gleichstand zählt, auch ein folgenloser. | diese Demo (zweite Tabelle) |
 | **Ein Verstoß ist ein Verstoß** | Wie schwer er wiegt, sagt die Zahl der Wähler nicht. Die Messreihen zeigen, wie oft er in Zufallsprofilen vorkommt. | diese Demo (Messreihen) |
 | **Die Profile sind Modelle** | Die Anteile hängen vom Profilmodell ab (drei Modelle). Echte Präferenzen liegen dazwischen. | diese Demo |
-| **Genau diese sechs Eigenschaften** | Andere Eigenschaften (Anonymität, Neutralität, Unabhängigkeit irrelevanter Alternativen im Sinne von Arrow, Klonunabhängigkeit) sind nicht geprüft. Nach Arrow ist keine Regel mit ≥ 3 Kandidaten zugleich Pareto-effizient, unabhängig von irrelevanten Alternativen und nicht diktatorisch. | – |
+| **Genau diese sechs Eigenschaften** | Andere Eigenschaften (Anonymität, Neutralität, Unabhängigkeit irrelevanter Alternativen im Sinne von Arrow, Klonunabhängigkeit) sind nicht geprüft. Nach Arrow ist keine Regel, die aus den Rangfolgen eine Gesamtrangfolge bildet und mindestens 3 Kandidaten zulässt, zugleich Pareto-effizient, unabhängig von irrelevanten Alternativen und nicht diktatorisch. | – |
 | **Ehrliche Wähler** | Die Eigenschaften gelten für ehrlich abgegebene Rangfolgen; taktisches Wählen ist ein eigenes Thema. | `taktisch-waehlen-demo` |
 """
 )

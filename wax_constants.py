@@ -59,9 +59,9 @@ PRESETS = {
     "Ohne Gleichstand: Borda": {"axiom": "iia", "rule": "borda", "m": 3, "max_n": 6, "tie_free": True},
 }
 PRESET_HELP = {
-    "Condorcet: wer scheitert?": "Voreinstellung: Mehrheitswahl und Condorcet-Konsistenz, drei Kandidaten, Suche bis 8 Wähler. Schon drei Wähler genügen: ein Kandidat gewinnt die Erststimmen, obwohl ein anderer jeden Paarvergleich gewinnt.",
+    "Condorcet: wer scheitert?": "Voreinstellung: Mehrheitswahl und Condorcet-Konsistenz, drei Kandidaten, Suche bis 8 Wähler. Schon drei Wähler genügen: bei Gleichstand der Erststimmen entscheidet das Los für A, obwohl B jeden Paarvergleich gewinnt.",
     "Copeland: nie ein Verstoß": "Copeland wählt jeden vorhandenen Condorcet-Sieger (das ist seine Definition); bei drei Kandidaten und bis zu 6 Wählern findet die Aufzählung deshalb nichts.",
-    "Sofortstichwahl: Monotonie": "Das Lehrbuchbeispiel der Sofortstichwahl: ein Wähler rückt den Sieger nach oben, und er verliert. Mit dem Los genügen 7 Wähler; ohne Hilfe eines Gleichstands fand die Aufzählung bis 15 Wähler keines.",
-    "Teilnahme: Copeland": "Ein Wähler kommt dazu und der Sieger wird einer, den er schlechter findet (das „No-Show-Paradox“). Mit dem Los genügen bei Copeland 4 Wähler.",
+    "Sofortstichwahl: Monotonie": "Ein kleines Beispiel der Sofortstichwahl (vom Los abhängig): ein Wähler rückt den Sieger nach oben, und er verliert. Mit dem Los genügen 7 Wähler; ohne Gleichstand geht das mit einem einzelnen Wähler nie.",
+    "Teilnahme: Copeland": "Ein Wähler kommt dazu und der Sieger wird einer, den er schlechter findet (das „No-Show-Paradox“). Mit dem Los genügen bei Copeland 4 Wähler (ohne den hinzukommenden).",
     "Ohne Gleichstand: Borda": "Dieselbe Frage wie die Unabhängigkeit vom Ausscheiden eines Verlierers, aber nur Gegenbeispiele, die in keinem Lauf einen Gleichstand brauchen; bei Borda sind es 5 Wähler.",
 }

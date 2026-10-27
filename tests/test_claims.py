@@ -51,7 +51,7 @@ def test_what_always_holds_in_the_searched_range(table):
     assert table[("condorcet", "copeland")]["with_tie"] is None and table[("monotonie", "copeland")]["with_tie"] is None
 
 
-def test_without_a_tie_irv_monotonicity_and_participation_need_more_than_fifteen_voters():
+def test_without_a_tie_irv_monotonicity_and_participation_have_no_counterexample_up_to_fifteen_voters():
     tb = np.arange(3)
     assert A.smallest_violation("monotonie", "irv", 3, tb, 15, tie_free=True) is None
     assert A.smallest_violation("teilnahme", "irv", 3, tb, 15, tie_free=True) is None
